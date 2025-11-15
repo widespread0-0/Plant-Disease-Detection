@@ -24,14 +24,6 @@ Take a phone photo of a plant leaf → instantly tell if it’s healthy or which
 - Alternative (faster training): [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) (~20–30 k images)  
 Images are cleanly organized by plant → disease/healthy.
 
-### 🛠 Tech Stack (100 % free, runs on Google Colab)  
-- Python 3.10+  
-- PyTorch (or TensorFlow/Keras)  
-- Albumentations / torchvision.transforms  
-- scikit-learn, xgboost, opencv  
-- timm (for EfficientNet)  
-- Streamlit or Gradio for deployment  
-
 ### 📁 Project Structure  
 ```
 ├── data/                    # (dataset – add via Kaggle link or shared Drive)
